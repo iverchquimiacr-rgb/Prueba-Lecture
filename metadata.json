@@ -1,0 +1,6 @@
+{
+  "name": "The Lecture World",
+  "description": "Mundo literario interactivo en pixel art para exposición escolar de literatura conectado a maquetas QR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

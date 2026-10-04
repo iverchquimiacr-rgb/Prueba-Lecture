@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-pixel: 'Press Start 2P', monospace;
+    --font-silkscreen: 'Silkscreen', monospace;
+    --font-vt: 'VT323', monospace;
+    --font-readable: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    background-color: #080d1a;
+    color: #e2e8f0;
+    font-family: var(--font-readable);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Pixel Art Fonts */
+.font-pixel {
+  font-family: 'Press Start 2P', monospace;
+  line-height: 1.4;
+}
+
+.font-silkscreen {
+  font-family: 'Silkscreen', monospace;
+}
+
+.font-vt {
+  font-family: 'VT323', monospace;
+}
+
+.font-readable {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Pixel Art Rendering */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* Retro Pixel Borders */
+.pixel-border-gold {
+  box-shadow: 
+    0 -4px 0 0 #b45309,
+    0 4px 0 0 #78350f,
+    -4px 0 0 0 #92400e,
+    4px 0 0 0 #92400e,
+    0 0 0 2px #f59e0b,
+    0 0 0 4px #1e1b4b;
+}
+
+.pixel-border-slate {
+  box-shadow: 
+    0 -3px 0 0 #1e293b,
+    0 3px 0 0 #020617,
+    -3px 0 0 0 #0f172a,
+    3px 0 0 0 #0f172a,
+    0 0 0 2px #334155;
+}
+
+.pixel-border-emerald {
+  box-shadow: 
+    0 -3px 0 0 #065f46,
+    0 3px 0 0 #022c22,
+    -3px 0 0 0 #047857,
+    3px 0 0 0 #047857,
+    0 0 0 2px #10b981;
+}
+
+.pixel-border-purple {
+  box-shadow: 
+    0 -3px 0 0 #581c87,
+    0 3px 0 0 #2e1065,
+    -3px 0 0 0 #6b21a8,
+    3px 0 0 0 #6b21a8,
+    0 0 0 2px #a855f7;
+}
+
+.pixel-card {
+  border: 3px solid #1e293b;
+  box-shadow: 
+    inset -3px -3px 0 0 #090d16,
+    inset 3px 3px 0 0 rgba(255, 255, 255, 0.08),
+    0 6px 0 0 #000000;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pixel-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    inset -3px -3px 0 0 #090d16,
+    inset 3px 3px 0 0 rgba(255, 255, 255, 0.15),
+    0 8px 0 0 #000000;
+}
+
+.pixel-btn-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #000000;
+  box-shadow: 
+    inset -3px -3px 0 0 rgba(0, 0, 0, 0.45),
+    inset 3px 3px 0 0 rgba(255, 255, 255, 0.35),
+    0 4px 0 0 #000000;
+  transition: all 0.1s ease;
+  user-select: none;
+}
+
+.pixel-btn-action:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+  box-shadow: 
+    inset -3px -3px 0 0 rgba(0, 0, 0, 0.45),
+    inset 3px 3px 0 0 rgba(255, 255, 255, 0.35),
+    0 5px 0 0 #000000;
+}
+
+.pixel-btn-action:active {
+  transform: translateY(3px);
+  box-shadow: 
+    inset -1px -1px 0 0 rgba(0, 0, 0, 0.45),
+    inset 1px 1px 0 0 rgba(255, 255, 255, 0.35),
+    0 1px 0 0 #000000;
+}
+
+/* Retro Scanlines (subtle overlay) */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+}
+
+/* Pixel text stroke */
+.pixel-text-shadow {
+  text-shadow: 2px 2px 0 #000000, -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 0 3px 0 #000000;
+}
+
+.pixel-text-glow-emerald {
+  text-shadow: 2px 2px 0 #000000, 0 0 12px rgba(16, 185, 129, 0.7);
+}
+
+.pixel-text-glow-purple {
+  text-shadow: 2px 2px 0 #000000, 0 0 12px rgba(168, 85, 247, 0.7);
+}
+
+.pixel-text-glow-gold {
+  text-shadow: 2px 2px 0 #000000, 0 0 12px rgba(245, 158, 11, 0.7);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+  border-left: 2px solid #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border: 2px solid #0f172a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
