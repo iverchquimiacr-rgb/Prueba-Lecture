@@ -138,7 +138,19 @@ export const BOOKS_DATA: Book[] = [
         description: 'Dostoievski propone que la salida de la oscuridad no proviene de la razón soberbia, sino del corazón humilde, personificado en Sonia y en el compromiso del sufrimiento purificador.',
         literaryReflection: 'Frente al nihilismo cínico, el autor contrapone el misterio de la resurrección moral.'
       }
-    ]
+    ],
+    analysis: {
+      workTitle: 'Crimen y castigo (Преступление и наказание)',
+      author: 'Fiódor Mijáilovich Dostoievski',
+      publicationYear: '1866 (publicada originalmente por entregas en la revista El Mensajero Ruso)',
+      compositionType: 'Prosa (novela psicológica narrativa de alta densidad filosófica)',
+      literaryMovement: 'Realismo ruso (Realismo psicológico y existencialismo decimonónico)',
+      structure: 'Dividida en 6 partes con 39 capítulos en total, culminando con un epílogo en dos secciones.',
+      narratorType: 'Narrador omnisciente en tercera persona con estilo indirecto libre y profunda polifonía (explora la mente febril de Raskólnikov y los diálogos dialécticos).',
+      predominantTone: 'Claustrofóbico, febril, trágico, cargado de angustia moral y fervorosa búsqueda de redención espiritual.',
+      literaryGenre: 'Género narrativo · Novela psicológica, filosófica y policial.',
+      stylisticNotes: 'Monólogos interiores tortuosos, contrastes de claroscuro visual, simbolismo cromático (amarillo de enfermedad y locura) y polifonía discursiva de Mijáil Bajtín.'
+    }
   },
   {
     id: 'eruditus',
@@ -277,7 +289,19 @@ export const BOOKS_DATA: Book[] = [
         description: 'El derecho inalienable a pensar por uno mismo y a no acatar órdenes injustas. La voz de Mexón ante los altavoces demuestra que la verdad no muere con quien la proclama, sino que inspira a las generaciones futuras.',
         literaryReflection: 'Mexón personifica el valor cívico de alzar la voz contra el pensamiento único y la tiranía.'
       }
-    ]
+    ],
+    analysis: {
+      workTitle: 'Eruditus: El planeta de la vida eterna',
+      author: 'Maritza Valle Tejeda',
+      publicationYear: '2016 (Literatura peruana contemporánea de valores y ciencia ficción)',
+      compositionType: 'Prosa (narrativa fantástica y de ciencia ficción especulativa)',
+      literaryMovement: 'Ciencia ficción distópica / Ficción filosófica y moral contemporánea',
+      structure: 'Organizada en secuencias narrativas progresivas: el orden tecnológico en Eruditus, el dilema de Mexón, el viaje cósmico, la estancia andina en el Perú y la rebelión de la verdad.',
+      narratorType: 'Narrador omnisciente en tercera persona con punto de vista focalizado en la evolución espiritual y ética del extraterrestre Mexón.',
+      predominantTone: 'Reflexivo, solemne, esperanzador y emotivo; contraste poético entre la frialdad sintética alienígena y la calidez del hogar campesino andino.',
+      literaryGenre: 'Género narrativo · Novela juvenil de ciencia ficción, ética y valores.',
+      stylisticNotes: 'Lenguaje claro y pedagógico, alegorías cristianas y humanistas, paralelismos entre tecnología deshumanizada y naturaleza viva.'
+    }
   },
   {
     id: 'ensayo-sobre-la-ceguera',
@@ -408,7 +432,19 @@ export const BOOKS_DATA: Book[] = [
         description: 'Tener ojos en un mundo de ciegos no es un privilegio de dominio, sino una pesada carga de servicio y verdad testimonial.',
         literaryReflection: 'La maqueta física en la exposición destaca los contrastes de blanco y luz de esta metáfora.'
       }
-    ]
+    ],
+    analysis: {
+      workTitle: 'Ensayo sobre la ceguera (Ensaio sobre a Cegueira)',
+      author: 'José de Sousa Saramago',
+      publicationYear: '1995 (Premio Nobel de Literatura 1998)',
+      compositionType: 'Prosa (prosa continua de vanguardia con flujo envolvente y oralidad culta)',
+      literaryMovement: 'Realismo alegórico / Posmodernismo literario contemporáneo',
+      structure: 'Dividida en 17 capítulos correlativos sin titular, organizados en 3 grandes arcos: el confinamiento en el manicomio militar, el reinado del terror de los ciegos armados y el éxodo por la ciudad desolada.',
+      narratorType: 'Narrador omnisciente de voz colectiva con reflexiones ensayísticas en primera y tercera persona; personajes innominados definidos por sus rasgos esenciales.',
+      predominantTone: 'Visceral, descarnado, sombrío, angustioso, implacablemente lúcido y solidario ante la catástrofe.',
+      literaryGenre: 'Género narrativo · Novela alegórica, parábola social y distopía humanista.',
+      stylisticNotes: 'Supresión de signos convencionales de diálogo y puntuación rígida, párrafos torrenciales y un agudo cuestionamiento ético sobre la condición humana.'
+    }
   },
   {
     id: 'tres-dias-para-mateo',
@@ -539,7 +575,19 @@ export const BOOKS_DATA: Book[] = [
         description: 'La derrota física en el parque se transforma en una victoria espiritual: Mateo comprende que ya no necesita pelear para demostrar quién es.',
         literaryReflection: 'Una poderosa conclusión que inspira a los estudiantes a tomar el control consciente de sus propias vidas.'
       }
-    ]
+    ],
+    analysis: {
+      workTitle: 'Tres días para Mateo',
+      author: 'José Antonio Galloso',
+      publicationYear: '2000 (Ganadora del Premio de Literatura Infantil y Juvenil)',
+      compositionType: 'Prosa (novela juvenil realista y de aprendizaje)',
+      literaryMovement: 'Realismo urbano peruano contemporáneo / Narrativa juvenil de la Generación del 90',
+      structure: 'Estructura cronológica dividida en capítulos breves que abarcan exactamente 72 horas críticas (la pelea en el aula el viernes, la fiesta/kermesse el sábado, y el desenlace y redención en el parque el domingo).',
+      narratorType: 'Narrador protagonista en primera persona (Mateo Valdivia), con un registro testimonial, honesto, confesional y cercano.',
+      predominantTone: 'Urbano, nostálgico, enérgico, juvenil y honesto; evolución emotiva desde la angustia y la presión social hasta la serenidad y la madurez interior.',
+      literaryGenre: 'Género narrativo · Novela juvenil urbana y de formación (Bildungsroman).',
+      stylisticNotes: 'Empleo ágil de la jerga juvenil limeña de finales de los 90, diálogos de alta fidelidad escolar, ritmo trepidante y escenarios cotidianos de Lima (aula, microbús, kermesse y parque).'
+    }
   },
   {
     id: 'mitos-griegos',
@@ -677,7 +725,19 @@ export const BOOKS_DATA: Book[] = [
         description: 'En "El paraíso de los niños", la criatura alada de la Esperanza consuela a los niños y sella el mensaje de Hawthorne: no hay oscuridad que no pueda ser sanada por la fe y el optimismo.',
         literaryReflection: 'Un mensaje reconfortante y formativo para los alumnos y visitantes de la feria escolar.'
       }
-    ]
+    ],
+    analysis: {
+      workTitle: 'Mitos griegos contados otra vez (A Wonder-Book for Girls and Boys / Tanglewood Tales)',
+      author: 'Nathaniel Hawthorne',
+      publicationYear: '1851 - 1853 (Publicada originalmente en dos volúmenes antológicos)',
+      compositionType: 'Prosa (prosa lírica, maravillosa y de recreación mitológica)',
+      literaryMovement: 'Romanticismo estadounidense (Trascendentalismo y alegoría moral romántica)',
+      structure: 'Estructura de relatos enmarcados: 5 a 6 historias míticas autónomas engarzadas por una voz narrativa marco en torno a las cuatro estaciones del año en la campiña de Tanglewood.',
+      narratorType: 'Narrador heterodiegético con marco ficcional (Eustace Bright), quien adapta los mitos griegos para niños y jóvenes con gran sensibilidad lírica y pedagógica.',
+      predominantTone: 'Maravilloso, poético, formativo, lúdico y éticamente luminoso.',
+      literaryGenre: 'Género narrativo · Antología de cuentos y leyendas mitológicas adaptadas.',
+      stylisticNotes: 'Humanización y ternura aplicadas a los mitos griegos clásicos, prosa cálida, rica adjetivación sensorial y personificación poética de virtudes eternas como la Esperanza.'
+    }
   }
 ];
 

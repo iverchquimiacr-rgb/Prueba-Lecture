@@ -33,13 +33,26 @@ export interface ThemeItem {
   literaryReflection?: string;
 }
 
-export type BookSectionKey = 'historia' | 'personajes' | 'temas' | string;
+export type BookSectionKey = 'historia' | 'personajes' | 'temas' | 'analisis' | string;
 
 export interface BookSectionDefinition {
   key: BookSectionKey;
   label: string;
   icon: string;
   description?: string;
+}
+
+export interface LiteraryAnalysis {
+  workTitle: string; // Nombre de la obra
+  author: string; // Nombre del autor
+  publicationYear: string | number; // Año de publicación
+  compositionType: string; // Tipo de composición (prosaica o en verso)
+  literaryMovement: string; // Corriente literaria a la que pertenece
+  structure: string; // Estructura (división por capítulos, partes, etc.)
+  narratorType: string; // Característica 1: Tipo de narrador y punto de vista
+  predominantTone: string; // Característica 2: Tono y atmósfera predominante
+  literaryGenre?: string; // Característica adicional: Género y subgénero literario
+  stylisticNotes?: string; // Recursos estilísticos y lenguaje
 }
 
 export interface Book {
@@ -58,6 +71,8 @@ export interface Book {
   scenes: Scene[]; // Entre 4 y 7 escenas
   characters: Character[];
   themes: ThemeItem[];
+  analysis?: LiteraryAnalysis; // Ficha de análisis literario formal
   // Arquitectura extensible para futuras secciones solicitadas (Contexto, Símbolos, Lugares, etc.)
   extraSections?: Record<string, unknown>;
 }
+
